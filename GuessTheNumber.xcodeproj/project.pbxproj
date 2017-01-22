@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180A88051E27A0C900032771 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A88041E27A0C900032771 /* GameLogic.swift */; };
 		185C62791E26A61B00D7D6DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C62781E26A61B00D7D6DC /* AppDelegate.swift */; };
-		185C627B1E26A61B00D7D6DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C627A1E26A61B00D7D6DC /* ViewController.swift */; };
+		185C627B1E26A61B00D7D6DC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C627A1E26A61B00D7D6DC /* GameViewController.swift */; };
 		185C627E1E26A61B00D7D6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185C627C1E26A61B00D7D6DC /* Main.storyboard */; };
 		185C62801E26A61B00D7D6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185C627F1E26A61B00D7D6DC /* Assets.xcassets */; };
 		185C62831E26A61B00D7D6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185C62811E26A61B00D7D6DC /* LaunchScreen.storyboard */; };
+		185C628B1E26A68100D7D6DC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C628A1E26A68100D7D6DC /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180A88041E27A0C900032771 /* GameLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
 		185C62751E26A61B00D7D6DC /* GuessTheNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185C62781E26A61B00D7D6DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		185C627A1E26A61B00D7D6DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		185C627A1E26A61B00D7D6DC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		185C627D1E26A61B00D7D6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		185C627F1E26A61B00D7D6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185C62821E26A61B00D7D6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185C62841E26A61B00D7D6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185C628A1E26A68100D7D6DC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				185C62781E26A61B00D7D6DC /* AppDelegate.swift */,
-				185C627A1E26A61B00D7D6DC /* ViewController.swift */,
+				185C627A1E26A61B00D7D6DC /* GameViewController.swift */,
+				185C628A1E26A68100D7D6DC /* MenuViewController.swift */,
+				180A88041E27A0C900032771 /* GameLogic.swift */,
 				185C627C1E26A61B00D7D6DC /* Main.storyboard */,
 				185C627F1E26A61B00D7D6DC /* Assets.xcassets */,
 				185C62811E26A61B00D7D6DC /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185C627B1E26A61B00D7D6DC /* ViewController.swift in Sources */,
+				185C627B1E26A61B00D7D6DC /* GameViewController.swift in Sources */,
+				185C628B1E26A68100D7D6DC /* MenuViewController.swift in Sources */,
+				180A88051E27A0C900032771 /* GameLogic.swift in Sources */,
 				185C62791E26A61B00D7D6DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				185C62891E26A61B00D7D6DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
